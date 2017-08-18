@@ -3,8 +3,23 @@
 
 }
 #section2{
-  background-color:
+  background-color: #F4A460;
 }
 .jumbotron{
   background-color: #FFE4C4;
+}
+#rules{
+  font-style: italic;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }

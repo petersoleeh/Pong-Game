@@ -1,4 +1,4 @@
-//business logic
+//business logic back end
 function pingpong(number) {
   var result = [];
   for (var i = 1; i <= number; i++) {
@@ -22,7 +22,7 @@ function pingpong(number) {
 };
 
 
-// user interface logic
+// user interface logic front end
 $(document).ready(function() {
     $("form#ping-pong").submit(function(event) {
       event.preventDefault();

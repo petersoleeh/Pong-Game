@@ -15,11 +15,19 @@
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
   background-color: #efefef;
   text-align: center;
+}
+
+.container {
+   min-height:100%;
+   position:relative;
+ }
+#result{
+  overflow-x: scroll;
 }
